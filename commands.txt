@@ -1,0 +1,3 @@
+streamlit run dashboard/app.py
+
+python -m ml_model.evaluate_model

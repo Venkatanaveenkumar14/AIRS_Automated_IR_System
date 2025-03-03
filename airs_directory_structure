@@ -1,0 +1,25 @@
+Automated_Incident_Response/
+├── data_preprocessing/   # Handles log ingestion & feature extraction
+│   ├── splunk_log_parser.py
+│   ├── nsl_kdd_preprocessor.py
+│   ├── feature_engineering.py
+│
+├── ml_model/   # Machine Learning for Threat Classification
+│   ├── train_model.py
+│   ├── model_predictor.py
+│   ├── anomaly_detection.py
+│
+├── incident_response/   # Automates security actions & alerting
+│   ├── response_engine.py
+│   ├── firewall_automation.py
+│   ├── alerting_system.py
+│
+├── models/   # Trained Models
+│   ├── trainedmodel1.joblib
+│   ├── trainedmodel2.joblib
+│
+├── dashboard/   # Visualizing Security Events & ML Predictions
+│   ├── app.py
+│   ├── logs_visualizer.py
+│
+└── main.py  # Main Execution File
