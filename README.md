@@ -63,17 +63,25 @@ Automated_Incident_Response/
    ```sh
    pip install -r requirements.txt
    ```
-3. Configure Splunk log ingestion:
+3. Run the incident response system:
    ```sh
-   python data_preprocessing/splunk_log_parser.py
+   python main.py
    ```
-4. Train the ML model:
+4. DDoS dataset preprocessing:
+   ```sh
+   python data_preprocessing/ddos_preprocessor.py
+   ```
+5. Train the ML model:
    ```sh
    python ml_model/train_model.py
    ```
-5. Run the incident response system:
+6. Evaluate the trained model:
    ```sh
-   python main.py
+   python -m ml_model.evaluate_model
+   ```
+7. View the Real-Time Dashboard:
+   ```sh
+   streamlit run dashboard/app.py
    ```
 
 ## Usage
