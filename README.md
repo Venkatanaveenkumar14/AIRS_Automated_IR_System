@@ -12,7 +12,7 @@ This project leverages the following datasets:
 - **Real-Time Threat Detection**: Uses AI/ML models to classify security logs and identify malicious patterns.
 - **Automated Incident Response**: Executes predefined security actions like **blocking IPs, terminating malicious processes, and alerting security teams**.
 - **SIEM Integration**: Works with **Splunk and Elastic Stack** for log analysis and visualization.
-- **Firewall Automation**: Interacts with **IPTables, Palo Alto APIs**, and other firewall solutions for automated mitigation.
+- **Firewall Automation**: Interacts with **IPTables, APIs**, and other firewall solutions for automated mitigation.
 - **Security Dashboard**: A **Streamlit-based dashboard** to visualize security events and ML predictions.
 
 ## Folder Structure
