@@ -13,7 +13,7 @@ This project leverages the following datasets:
 - **Automated Incident Response**: Executes predefined security actions like **blocking IPs, terminating malicious processes, and alerting security teams**.
 - **SIEM Integration**: Works with **Splunk and Elastic Stack** for log analysis and visualization.
 - **Firewall Automation**: Interacts with **IPTables, Palo Alto APIs**, and other firewall solutions for automated mitigation.
-- **Security Dashboard**: A **Flask/Streamlit-based dashboard** to visualize security events and ML predictions.
+- **Security Dashboard**: A **Streamlit-based dashboard** to visualize security events and ML predictions.
 
 ## Folder Structure
 ```
